@@ -6,7 +6,9 @@ body {
 .container {
     margin-top: 50px;
 }
-
+.list{
+    display:none;
+}
 .list-group-item {
     cursor: pointer;
 }
@@ -22,3 +24,9 @@ body {
 .buttons {
     padding: 10px 10px 10px 0;
 }
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
